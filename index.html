@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laya Home | Interiérový Architekt</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Canva+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="home-page">
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="img/logo.png" alt="Laya Home Logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="about.html">O mně</a></li>
+                <li><a href="portfolio.html">Portfolium</a></li>
+                <li><a href="services.html">Služby</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="slideshow-container">
+            <div class="slideshow">
+                <div class="slide active">
+                    <img src="img/portfolio/project1-main.jpg" alt="Interior 1">
+                    <div class="slide-caption">Moderní Obývací Pokoj</div>
+                </div>
+                <div class="slide">
+                    <img src="img/portfolio/project1-1.jpg" alt="Interior 2">
+                    <div class="slide-caption">Minimalistická Kuchyň</div>
+                </div>
+                <div class="slide">
+                    <img src="img/portfolio/project1-2.jpg" alt="Interior 3">
+                    <div class="slide-caption">Elegantní Ložnice</div>
+                </div>
+                <!-- More slides would be added here -->
+                
+                <div class="slide-controls">
+                    <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <div class="slide-dots">
+                        <span class="dot active" data-slide="0"></span>
+                        <span class="dot" data-slide="1"></span>
+                        <span class="dot" data-slide="2"></span>
+                    </div>
+                    <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="copyright">
+            &copy; Laya Home 2025
+        </div>
+        <div class="social-icons">
+            <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
